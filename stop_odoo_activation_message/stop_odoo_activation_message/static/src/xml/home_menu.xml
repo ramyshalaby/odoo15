@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+
+<t t-name="stop_odoo_activation_message.HomeMenu" t-inherit="web_enterprise.HomeMenu" t-inherit-mode="extension" owl="1">
+    <xpath expr="//div[@class='o_home_menu']/ExpirationPanel" position="replace" />
+</t>
+
+
+</templates>
