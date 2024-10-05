@@ -1,0 +1,145 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_de_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-14 11:41+0000\n"
+"PO-Revision-Date: 2022-12-14 11:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_de_reports
+#: model:account.financial.html.report,name:l10n_de_reports.balance_sheet_l10n_de
+#: model:ir.actions.client,name:l10n_de_reports.account_financial_html_report_action_4
+#: model:ir.ui.menu,name:l10n_de_reports.account_financial_html_report_menu_4
+msgid "Balance Sheet"
+msgstr "Bilanz"
+
+#. module: l10n_de_reports
+#: model:ir.model,name:l10n_de_reports.model_account_coa_report
+msgid "Chart of Account Report"
+msgstr "Bericht zum Kontenplan"
+
+#. module: l10n_de_reports
+#: model:ir.model,name:l10n_de_reports.model_res_company
+msgid "Companies"
+msgstr "Unternehmen"
+
+#. module: l10n_de_reports
+#: code:addons/l10n_de_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Configure your company"
+msgstr "Ihr Unternehmen konfigurieren"
+
+#. module: l10n_de_reports
+#: model:ir.model,name:l10n_de_reports.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: l10n_de_reports
+#: model:ir.model.fields,field_description:l10n_de_reports.field_res_partner__l10n_de_datev_identifier
+#: model:ir.model.fields,field_description:l10n_de_reports.field_res_users__l10n_de_datev_identifier
+msgid "DateV Vendor"
+msgstr "Datev-Lieferant"
+
+#. module: l10n_de_reports
+#: code:addons/l10n_de_reports/models/datev_export_csv.py:0
+#, python-format
+msgid "Datev (zip)"
+msgstr "Datev (ZIP)"
+
+#. module: l10n_de_reports
+#: code:addons/l10n_de_reports/models/datev_export_csv.py:0
+#, python-format
+msgid "Datev zip"
+msgstr "Datev-ZIP-Datei"
+
+#. module: l10n_de_reports
+#: model:ir.model,name:l10n_de_reports.model_account_general_ledger
+msgid "General Ledger Report"
+msgstr "Bericht zum Hauptbuch"
+
+#. module: l10n_de_reports
+#: model:ir.model,name:l10n_de_reports.model_account_generic_tax_report
+msgid "Generic Tax Report"
+msgstr "Generischer Steuerbericht"
+
+#. module: l10n_de_reports
+#: model:ir.model.fields,help:l10n_de_reports.field_res_partner__l10n_de_datev_identifier
+#: model:ir.model.fields,help:l10n_de_reports.field_res_users__l10n_de_datev_identifier
+msgid ""
+"In the DateV export of the General Ledger, each vendor will be identified by "
+"this identifier. If this identifier is not set, the database id of the "
+"partner will be added to a multiple of ten starting by the number 7.The "
+"account code's length can be specified in the company settings."
+msgstr "Im Datev-Export des Hauptbuchs wird jeder Lieferant durch diesen Kennung "
+"identifiziert. Wenn diese Kennung nicht festgelegt ist, wird die Datenbank-ID des "
+"Partners zu einem Vielfachen von zehn addiert, beginnend mit der Zahl 7. Die "
+"Länge des Kontocodes kann in den Unternehmenseinstellungen festgelegt werden."
+
+#. module: l10n_de_reports
+#: model:ir.model,name:l10n_de_reports.model_account_move
+msgid "Journal Entry"
+msgstr "Journalbuchung"
+
+#. module: l10n_de_reports
+#: model:ir.model.fields,field_description:l10n_de_reports.field_res_company__l10n_de_datev_client_number
+msgid "L10N De Datev Client Number"
+msgstr "L10N De Datev-Kundennummer"
+
+#. module: l10n_de_reports
+#: model:ir.model.fields,field_description:l10n_de_reports.field_res_company__l10n_de_datev_consultant_number
+msgid "L10N De Datev Consultant Number"
+msgstr "L10N De Datev-Beraternummer"
+
+#. module: l10n_de_reports
+#: model:ir.model.fields,field_description:l10n_de_reports.field_account_bank_statement_line__l10n_de_datev_main_account_id
+#: model:ir.model.fields,field_description:l10n_de_reports.field_account_move__l10n_de_datev_main_account_id
+#: model:ir.model.fields,field_description:l10n_de_reports.field_account_payment__l10n_de_datev_main_account_id
+msgid "L10N De Datev Main Account"
+msgstr "L10N De Datev-Hauptkonto"
+
+#. module: l10n_de_reports
+#: model:account.financial.html.report.line,name:l10n_de_reports.account_financial_report_de_off_sheet
+msgid "OFF BALANCE SHEET ACCOUNTS"
+msgstr "AUSSERBILANZIELLE KONTEN"
+
+#. module: l10n_de_reports
+#: model:account.financial.html.report,name:l10n_de_reports.p_and_l_l10n_de
+#: model:ir.actions.client,name:l10n_de_reports.account_financial_html_report_action_5
+#: model:ir.ui.menu,name:l10n_de_reports.account_financial_html_report_menu_5
+msgid "Profit and Loss"
+msgstr "Gewinn und Verlust"
+
+#. module: l10n_de_reports
+#: code:addons/l10n_de_reports/models/datev_export_csv.py:0
+#, python-format
+msgid "You have already defined a partner with the same Datev identifier. "
+msgstr "Es existiert bereits ein Partner mit derselben Datev-Kundenkennung."
+
+#. module: l10n_de_reports
+#: code:addons/l10n_de_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Your company's SteuerNummer field should be filled"
+msgstr "Die Steuernummer Ihres Unternehmens sollte ausgefüllt sein."
+
+#. module: l10n_de_reports
+#: code:addons/l10n_de_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Your company's SteuerNummer is not compatible with your state"
+msgstr ""
+"Die Steuernummer Ihres Unternehmens ist nicht mit Ihrem Bundesland kompatibel."
+
+#. module: l10n_de_reports
+#: code:addons/l10n_de_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Your company's SteuerNummer is not valid"
+msgstr "Die Steuernummer Ihres Unternehmens ist nicht gültig."
